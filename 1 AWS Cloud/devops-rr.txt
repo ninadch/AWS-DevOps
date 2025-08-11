@@ -1,0 +1,51 @@
+Typical responsibilities for devOps engineers include:
+
+building and setting up new development tools and infrastructure
+understanding the needs of stakeholders and conveying this to developers
+working on ways to automate and improve development and release processes
+testing and examining code written by others and analysing results
+ensuring that systems are safe and secure against cybersecurity threats
+identifying technical problems and developing software updates and ‘fixes’
+working with software developers and software engineers to ensure that development follows established processes and works as intended
+planning out projects and being involved in project management decisions.
+
+Infrastructure planning, testing & development
+In the regular workday, DevOps Engineers look at individual functions of the cloud environment and write code to scale them to fill some immediate need. This might include:
+
+Adding users to a cloud infrastructure
+Adding permissions
+Adding or changing workflow processes
+Adding entire objects that function like containers (e.g., FaaS) to meet business needs
+
+Security & automation
+
+Key skills for devOps engineers
+Useful skills for devOps engineers include:
+
+excellent teamworking and communication skills
+knowledge of programming languages
+strong problem-solving skills
+good attention to detail
+excellent organisational and time management skills, and the ability to work on multiple projects at the same time
+awareness of devOps and Agile principles.
+
+Some of the core responsibilities of DevOps Engineer include –
+
+Understanding customer requirements and project KPIs
+Implementing various development, testing, automation tools, and IT infrastructure
+Planning the team structure, activities, and involvement in project management activities.
+Managing stakeholders and external interfaces
+Setting up tools and required infrastructure
+Defining and setting development, test, release, update, and support processes for DevOps operation
+Have the technical skill to review, verify, and validate the software code developed in the project.
+Troubleshooting techniques and fixing the code bugs
+Monitoring the processes during the entire lifecycle for its adherence and updating or creating new processes for improvement and minimizing the wastage
+Encouraging and building automated processes wherever possible
+Identifying and deploying cybersecurity measures by continuously performing vulnerability assessment and risk management
+Incidence management and root cause analysis
+Coordination and communication within the team and with customers
+Selecting and deploying appropriate CI/CD tools
+Strive for continuous improvement and build continuous integration, continuous development, and constant deployment pipeline (CI/CD Pipeline)
+Mentoring and guiding the team members 
+Monitoring and measuring customer experience and KPIs
+Managing periodic reporting on the progress to the management and the customer
