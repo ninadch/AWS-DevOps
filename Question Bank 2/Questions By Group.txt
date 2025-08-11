@@ -1,0 +1,303 @@
+Group A Mock 
+Tejas Patwari
+26th March 2022
+
+What is Hypervisor?
+Different types of virtualization?
+What is elastic transcoder?
+What is iterative model in SDLC?
+Consistency models for databases offered by AWS?
+
+
+EC2
+When Elastic IP will incur cost?
+If EIP is attached to EC2 which is stopped... Will it incur cost?
+What is connection draining?
+how to chose an availability zone? what parameters should we keep in mind?
+Difference between spot instance and on demand instance?
+I have DB server which I need to access frequently, which storage and its type I will use?
+what is Instance Store volume and EBS volume?
+what is use of lifecycle hooks in ASG?
+how to launch instance whos key you have lost?
+How to automate the ec2 backup?
+How to auto delete old snapshot?
+Is there Encryption in EBS?
+Can you change the private IP address of EC2 instance?
+I have 15 RDP servers. Which load balancer I should use?
+What are types of LB?
+What is hybrid AMI?
+which is costliest storage in AWS?
+How to automate EBS backups?
+
+VPC
+What will happen if I delete a Peering connection?
+How many instances you can use in VPC?
+What is stateful means exactly?
+How to block access for Russian traffic in your server? 
+If your russian colleague is not ablet to access now... what you'll do?
+How to connect VPC to on-prem network?
+192.168.2.0 is private or public ip address? what about 172.15.0.0 ?
+How to create a Peering Connection
+
+S3
+How 10GB file will be stored in EBS, EFS and S3 tell in detail. 
+How to upload file which is greater than 100MB? 
+redundancy in s3?
+what is faster s3 or ebs?
+Why S3 is cheaper?
+Which S3 storage class to select for storing logs that we want to access monthly?
+Difference between object storage and block storage?
+How you monitor S3? with its replication? to see it's consistency?
+storage classes in S3?
+
+EFS
+Why EFS is scalable for multiple EC2 instances? 
+
+CLOUDFRONT
+What is Min TTL max TTL value?
+How many requests per seconds CF can handle?
+how you clear the the CF cache?
+What is Geo Targetting in CF?
+What is CF?
+How to use browser cache? how to disable it for CF?
+
+SNS
+
+CLOUDWATCH
+what is cloudwatch?
+how to set a CW alarm to recover EC2 instance?
+Have you set any alarm in a CW? How you did it?
+
+CLOUDTRAIL
+What is CT? how it works?
+If one user did some distructive thing in my AWS... how can I track that?
+
+SHELL
+How to check for how long my Linux machine has been running?
+What is Run Level in linux and how to change it?
+Can you increase your partition in Linux without Rebooting it?
+How to restart a service in Linux?
+file created by the root... it should be opened by one other user and root only. how to do it?
+How to add user in Linux?
+su  - root command is failing what may be reason?
+System not booting after updating the kernel in the linux, What should be done?
+Write a code to Print the number of characters in a string?
+how to open read only file in VI Editor?
+How to see a file that has consumed the largest space in Linux?
+what is Swap Memory.
+metacharacters in shell
+how to schedule shell job on perticular time
+how to check disk usage
+My disk is overflowing how to troubleshoot it?
+I want to print all available IP addresses in a CIDR block 192.168.60.0/23. write a shell script for it.
+
+
+[10:34 am, 04/04/2022] +91 97662 55755: Group A
+Vaishnavi Bokey
+19 March 2022
+
+Does AWS support Reverse NATing?
+Storage classes in S3 ?
+What is Delete marker? will it appear for every deletion?
+what can be scenarios if you are not able to SSH into your instance?
+difference between NAT Gateway and internet gateway?
+how to know the subnet is private or public?
+Tell me about the commands of S3
+What is access control list?
+What is VPC peering? how to do that?
+Different storage provided by AWS?
+what is load balancer and Practical example of ALB and NLP.
+What is AMI
+Policies in Auto Scaling.
+What is lifecycle of an object in S3?
+What is versioning?
+What is flow flogs?
+What is limit for number of VPCs, Subnets, buckets.
+Policies in Scaling?
+How scaling happens? tell with types.
+how can we replicate our bucket?
+Can we attach EFS to an instance. can you tell the process?
+What is EFS and which protocol does it uses?
+[10:34 am, 04/04/2022] +91 97662 55755: 5 March 2022
+Mone Sir
+Group A
+
+policies used in ASG
+What is target group
+what is launch configuration
+Command for adding user, how to give  him sudo permissions
+Command for changing file permissions 
+What is use of yum
+how to update perticular package
+how to see version of perticular package
+What is health checks
+what is listener
+snapshot vs ami
+what is incremental snapshot
+types of ec2 instances w.r.t cost and configuration
+What is sudoers file?
+Name scaling policies
+info of each scaling policy
+difference betweeen load balancer vs ASG
+horizontal vs verticle scaling
+Types of EBS, EC2.
+Meaning of incremental snapshot.
+difference between iops and throughput
+metrics in scaling
+elastic IP
+3 networking commands in Linux
+ssl certificate in ALB
+why we need autoscaling - to increase the availability
+how to see version of perticular application?
+
+1] How could we copy the data from one m/c to other m/c using linux commands?
+2] What is swap spacing in linux?
+3] Have you ever set up any AWS Service from scratch?
+4] Why do you want to join as Devops engg? Why choose cloud or devops?
+5] How many types of encryption is available in S3?
+6] How do you monitor a VPC?
+7] Is EC2 a PAAS or IAAS?
+8] What are the types of cloud computing?
+9] What is Avg space in S3?
+10] What are default permissions when you create a S3 bucket?
+11] What different types of editors are present in linux?
+12] What is sticky bit in linux?
+13] Why and when is the TAR command used ?
+14] What is the command for child directory?
+15] How can we see the event history in CT?
+16] Why exactly is IAM used for ?
+17] What are default policy available if we create a new user ?
+18] What are S3 end pts?
+19] Is VPC Peering possible in different regions?
+20] Is filter types available in VPC-Peering?
+21] What are log groups in CW?
+22] What are Different Metrics in CW?
+23] How to build a custom VPC from scratch step by step?
+24] Is subnet region specific?
+25] What are CF functions?
+26] Are you familiar with zombie process in linux?
+27] What is Bucket Policy?
+28] What is Elastic ip ?
+29] What are lifecycle rules?
+30] What are access pts in S3?
+31] Default criteria for S3 cross region replication?
+32] CT supports which level permission?
+33] How to secure our CT logs?
+34] Which are default permissions available in Linux?
+35] Different process states in linux?
+36] How do i connect to remote server?
+37] What is CIDR? What is its Formula?
+38] How do you secure the logs?
+39] What are networking commands in Linux? Name any five.
+40] What is Egress only IGT?
+41] What is Identity provider in IAM?
+42] What is log grp in CW?
+43] What is AWK command & its use cases?
+44] What is concept of instance store?
+45] Explain the object sharing in S3?
+46] How to redirect the custom domain port/path?
+47] What are CF functions?
+48] How to specify the AZ while launching instance?
+49] How to check commands that we executed in past?
+50] Difference between NAT Gateway & NAT Instance?
+51] What is EC2 Hibernate?
+52] By Network perspective what do you get by default if you run EC2 instance?
+53] What are different modes of EFS?
+54] What are Autoscaling groups?
+55] Does EFS requires scaling manually or automatically?
+56] What is pseudo command?
+57] Where are system logs stored in Linux system?
+58] How can we store log files in CT?
+59] What is dedicated host in EC2?
+60] What are inventory configuration?
+61] What is connection draining?
+
+[10:57 am, 04/04/2022] +91 93253 14237: group 16
+[10:57 am, 04/04/2022] +91 93253 14237: 1] as a devops engineer explain day to day work or daily routine 
+2] autoscaling policy types total 
+3] aws cli in s3 archive file command 
+Warm up period and cool down period 
+Linux flaour which you used – amazon rehl
+Linux version 
+Kernel version 
+Vi editor version 
+$ sign used for 
+S3 uri
+What is connection draining?
+What is NAT?
+How we connect Private Subnet to internet & how it works?
+How we get access of private instance?
+How you configure route table for public and private subnet?
+AMI vs Snapshot
+Can we increase EBS volume?
+1. Which techniques are used for ELB?
+2. Why does elb have more than one IP?
+3. What is the default permission for creating bucket?
+Difference between T2 and T3 like ram cpu 
+http and https 
+how to mak bucket public – ACL enable
+iam and iam user difference 
+how to make private data in s3 public
+T3 lagre instance type specification 
+No of vpc we can create in one region 
+How to upload object or file in s3 bucket through AWS CLI 
+Leena Maghade:
+ Different components of VPC 
+2) why do we need vpc 
+3) How to provide Internet access to EC2 in vpc
+4)can we have 2 subnet in different AZ
+5)one in public subnet & private SN I have own database server for my web application. Where we have .
+6) different between public subnet & private SN
+7) what is VPC peering
+How many EC2 are in VPC
+Today he asked introduction   1) 1)EC2 , 
+2) different between spot and on demand instance
+[10:58 am, 04/04/2022] +91 93253 14237: Which are the best security practice of ec2 
+S3 cross region replication
+different IaM categories that you can control
+is it possible to change IP address of a ec2 machine when running or stop condition in  vpc
+what is the use of routing table 
+is there any other way to log in to the cloud envoirnment other than management console 
+what is the meaning of $ in shell scripting 
+what is special variable 
+if I want to connect my vpc to the internet how can I connect 
+I want to add two binary digit which are taken from user and I want to display the result will you write shell script for me ?
+Which type of shell scripting is this one ? BASH
+how you identify public subnet and private subnet
+can we use multiple elastic Load Balancer on single ec2 machine –yes bt need to create target group
+[10:59 am, 04/04/2022] +91 93253 14237: 1)If you're key misplaced how can you login to EC2 instance?
+2)what is shell?
+3)cat & pack? In Linux
+4) without AWS console can you use AWS services?
+5) Difference in putty & mobaxtreme?
+6) Difference between Nat gateway and nat instance
+[11:00 am, 04/04/2022] +91 93253 14237: What Is Public Key Credentials And How To Install It ?
+[11:58 am, 04/04/2022] +91 97648 90499: Interview Questions
+1.What is VPC peering.? 
+2.Region to region peering is possible or not? 
+3.What are the types of L.B? 
+4.What is the difference between Application lb and network lb.? 
+5.What is CIDR block? 
+6.What will happen in the CiDR block of the vpc and subnet? 
+7.What is the difference between public subnet and private subnet? 
+8.How public subnet is connected to the internet? 
+9.Is there any internet gateway configured with private subnet? 
+10.NAT gateway is one way communication or Two way communication.?
+[11:58 am, 04/04/2022] +91 97648 90499: Interview questions 26th march(saturday) 
+Tell me about yourself
+What are the types of reserved instance? 
+What is an IAM? And features
+What is AmI? How to lunch AMI explain steps
+Cross region Replication? 
+Is any region that dont have vpc? 
+What is the difference between region and availability zone? 
+What is kernal? And what is chmod command.? 
+What is spot instance? 
+Which are types of creating our aws account?
+[0:01 pm, 04/04/2022] +91 90044 72578: What is ENI?
+[0:06 pm, 04/04/2022] +91 97662 55755: Elastic network interface. 
+
+It is attached to our ec2 instance. All the networking properties we give to our instance are attached to ENI actually. Like IP address, VPC etc. 
+For every instance you launch by default ENI is created and attached to ur instance.
+You can see that in "Network Interfaces" in EC2 console.
+

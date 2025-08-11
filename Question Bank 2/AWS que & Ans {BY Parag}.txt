@@ -1,0 +1,191 @@
+
+Date : 25th May 2021 [
+]
+1.  	Brief about your professional journey
+2.  	Tell me about your journey with AWS Services. What are the services you’re familiar with?
+3.  	What are the use cases or scenarios you’ve been gone through?
+4.  	On a daily basis how much exposure do you have and with which services?
+5.  	Tell me the architecture in which you set up and managed to host the website and maintained the availability of your client?
+6.  	If one of the nodes is unhealthy then tell me how it’ll be decommissioned and get a new server to replace it?
+7.  	If a new server is created then what kind of configuration or settings you do to be a part of the cluster and to appear inside the load balancer group?
+8.  	Tell me more about the lambda function. Let’s say a s3 file directory and you’ve to trigger a job inside a ec2 host. How would you do that? How do you attach s3 to a lambda function? How and why you attached two roles to a lambda function?
+9.  	How a lamda function is going to log in to your ec2 host? It has to be a ssh login?
+10.   How familiar you’re with s3? How frequently you’ve used it and where?
+11.   Two files in the s3 one is good to go(delete) after 30 days and another after 60. What to do?
+12.  What are the scenarios where you’ve used CMK?
+13.  How did you use a cmk to log in to the server? Is it really possible?
+14.  If the RDS  isn’t encrypted and a client wants it to be encrypted. How to do?
+15.  While turning on the encryption of an ebs, which key you’re going to choose?
+16.  Have you written some policies for s3 buckets? Tell me scenarios.
+17.  If the server is already running how would you attach a role? Explain the complete process of creating a role and assigning.
+18.  If I want the RTO of 30 mins. How would you design the back up strategy? What you guys used to back up the systems? Which service you’ll use?
+ 
+ 
+ 
+ 
+ 
+ 
+26th May 2021 [T-Systems, Pune]
+
+1.  	Take me through your professional journey
+2.  	Can you help me understand the latest project you’ve worked on?
+3.  	How do you start your day and what activities you do w.r.t. your job?
+4.  	While analyzing the cloudwatch logs, are you using some automation or what?
+5.  	What is the purpose of monitoring and maintaining the API calls and what you’re achieving with this?
+6.  	What about Terraform? How much you’re into Terraform?
+7.  	Have you used Terraform modules? How do we set up the folder/directory structure and create the modules.
+8.  	 What’s the user data in EC2?
+9.  	Can we create an EC2 without a key pair?
+10.  What’s eventual consistency in S3?
+11.  Difference between CRR and Life cycle policy?
+12.  While accessing ec2 through putty. We’re getting network connection timeout? What’s the reason? And how to troubleshoot?
+13.  After EC2 creation, what’re the default cloudwatch metrics available?
+14.  What’re placement groups and why are they used?
+15.  How many types of load balancers are there?
+16.  What are the protocols that ALB supports?
+17.  Where do we get the SSL certificate?
+18.  Have you heard about AWS certificate manager?
+19.  If you’ve worked on RDS, what’s the difference between a subnet group and a parameter group?
+20.  Can you elaborate where did you use Python and what you wrote in it?
+21.  What’s the maximum execution time of lambda?
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10th June 2021 [SAMA Technologies]
+
+1.  	While creating an ec2 if I’ve given my ip in the security group and you’re not able to access it. What might be the reason?
+2.  	If I want tomcat to be pre-installed on the ec2. What to do?
+3.  	How can we access a s3 bucket from the ec2?
+4.  	Even Though the ec2 has s3 bucket full access but still it’s not able to upload the file. What could be the reason?
+5.  	What’s the max size of ebs volume you can attach to an ec2?
+6.  	What’s the max size of an object to be uploaded in s3?
+7.  	I’ve to upload a single file of 20 TB. How can I do that? And the client doesn’t want us to divide the data among different buckets.
+8.  	What’re the bucket policies?
+9.  	I want to restrict a particular user or a particular ip address to access to a bucket. Can I do that? 
+10.  If you don’t have an access to IAM roles or policies, how would you allow or restrict someone?
+11.  Explain the structure of the IAM policy. What are the pointers that you define in an IAM policy?
+12.  You’ve to remove the put access of s3. How will you edit or which block of the policy?
+13.  If you don’t have the console access for ex you’re in between the client’s call. How would you do so?
+14.  How does a general policy look like?
+15.  What have you done using ELB? What were the technicalities you used to ensure the website is never down?
+16.  What’re the listeners in load balancer?
+17.  Your website is attached to a load balancer and It’s not routing to the https. How can you fix it up?
+18.  From where to get the security certificate and what it contains?
+19.  What are the target groups? What’s the purpose to create?
+20.  What’s the one parameter which is vital enough to create a target group?
+21.  Can we pass 3 different domains through a single load balancer?
+22.  While creating a rds instance you’re not selecting the subnet group, will that be created?
+23.  Is there default subnet always present?
+24.  What’s the major difference between public and private subnet?
+25.  Subnets are attached to which component?
+26.  Full form of NAT and it’s purpose?
+27.  As an architect, you’re asked to launch a website, what services would you use and how would align the same?
+28.  Where would you place your rds instance then? In which subnet?
+29.  What are things you’ve done in cloudwatch?
+30.  Have you set up an event will stop the instance as it has reached the higher cpu utilization and change its type and also informs an admin?
+31.  Which are the devops tools you’ve worked on?
+32.  What’s tfstate in Terraform and how would you reuse the previous configuration?
+ 
+14/06/2021 [Inforstretch]
+
+1.  	What are you currently doing in your company?
+2.  	What are the things you’ll do to secure an aws account for your client?
+3.  	While creating a VPC which are the security majors you’ll consider?
+4.  	What’s the difference between NAT Gateway and NAT Instance?
+5.  	How many security groups can be assigned to an aws resource?
+6.  	How many rules you can create inside a security group?
+7.  	How can you secure a linux os?
+8.  	What’s the reason and how to troubleshoot if the request are being forwarded towards the server available in a particular AZ and not in another AZ?
+9.  	What’s S3 and why to use it?
+10.  How can you use cloudwatch to monitor the memory utilization? And do we need to install anything specific for that?
+11.  How to make an rds instance volume encrypted when it’s not?
+12.  How can I increase the storage capacity of the ec2 server, without adding any extra volume and without taking any kind of snapshot? With zero downtime.
+13.  What is KMS used for?
+14.  How can you commit an empty git repository?
+15.  Create a repository such as only specific group should be able to commit inside it. And also if we want to use a specific keyword inside a commit message.
+16.  What’s the devops in general? How would define it? Explain CICD.
+17.  Which are the linux commands you’ve used? What are for memory and cpu utilization?
+18.  What is the shell scripting used for?
+ 
+12/07/2021 [AssetVantage]
+
+1.  	Your current responsibilities and your roles
+2.  	How do you make sure the data availability in it?
+3.  	Have you worked on build pipelines or any other tool of similar kind?
+4.  	What are the steps you have taken for CICD?
+5.  	What you used for publish over ssh? Did you use public key or private key
+6.  	Have you worked SSL OR DLS to make your site more secured?
+7.  	If you’ve a database and your client wants it to be encrypted. What to do?
+8.  	How would you rotate the key after a specific time as the db is encrypted.
+9.  	Have you worked with ami and iam? And how do you permit users
+10.  Can you describe how you're using the s3 bucket?
+11.  If you’re the owner of s3 bucket and you need a third party to access it and add the data
+12.  Can you have cross account users and have access?
+13.  Have you written shell scripts for automation purposes?
+14.  What is your knowledge about linux administration?
+15.  Advantages of containerization or directly hosting on ec2
+16.  What was the most challenging task for you so far while working with the cicd? How did you tackle and what material did you refer to?
+17.  Can you explain what ansible does?
+18.  If you need to write a shell script and you haven’t worked on it before? What’d be your approach what would you do and proceed towards the completion?
+19.  If a build didn’t succeed what are the steps you’ll follow
+20.  Can you give a brief about what is git branching structure.
+21.  Did you have the configuration files in git or you handled them separately? Did you use cicd or standard mostly in Jenkins?
+-          2 interviews -
+26/07/2021 [Capgemini]
+1.  	How can I provide the access to s3 bucket through endpoint without IAM role
+2.  	What's a virtual private gateway?
+3.  	How can you access the private server through a public load balancer?
+4.  	If there are two different target groups but the ips aren’t working and traffic isn’t being routed? How to tackle it?
+5.  	How to download the lambda code?
+6.  	What’s and how the site to site vpn connection is established?
+7.  	What’s AWS direct connect?
+8.  	How the NACL AND NAT is set up?
+9.  	In Autoscaling once the server is deployed and then shut down then how can we get its data or where it’s ma``intained?
+Using Auto Scaling lifecycle hooks, Lambda, and EC2 Run Command
+ 
+27/07/2021 [RNT.AI]
+ 
+1.  	Please brief your current role and responsibilities.
+2.  	What is Ansible Tower?
+3.  	Ansible Playbook structure
+4.  	Have you created a VPC and how do you secure it and where is the peering needed?
+5.  	Are you comfortable with Linux? (administration)
+6.  	Experience in Scripting? Shell/Python
+7.  	Explain the CICD project you’ve worked on.
+
+
+
+ 
+
+04/03/202        [CloudCover]
+
+
+1. What is the difference between NACl and the security group?
+2. What is the difference between application load balancer and network load balancer?
+3. What is difference between NAT gateway and NAT instance
+4. What is a public and private subnet?
+5. How can you identify which subnet is public or private?
+6. How can you access S3 bucket from a private subnet without the internet.
+7. Suppose your pem file is missed then how will you recover your pem file to ssh into the server?
+8. How to copy one file from s3 bucket to another bucket using aws cli
+9. Is it possible to access ec2 server without ssh ?
+10. How will you increase root size volume of ec2 server
+11. What is life cycle policy in s3 bucket
+12. Difference between softlink and hard link
+13.What are listener's in Load balancer
+14.Difference between S3 vs EBS vs EFS
+15.Which IP is used in NAT Gateway?
+16. .Difference between AMI & Snapshot
+17..Difference between S3 standard & Deep archive
+18.Difference between Elastic IP and Public IP
+19. If you can’t connect to the EC2 machine, you are getting a connection timeout error, so what will be the reason & how you troubleshoot it?
+20. How you configure Auto Scaling, what are the steps?
+
+ 
+
+
+

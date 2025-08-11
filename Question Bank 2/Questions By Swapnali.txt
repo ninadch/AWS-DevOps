@@ -1,0 +1,61 @@
+1] How could we copy the data from one m/c to other m/c using linux commands?
+2] What is swap spacing in linux?
+3] Have you ever set up any AWS Service from scratch?
+4] Why do you want to join as Devops engg? Why choose cloud or devops?
+5] How many types of encryption is available in S3?
+6] How do you monitor a VPC?
+7] Is EC2 a PAAS or IAAS?
+8] What are the types of cloud computing?
+9] What is Avg space in S3?
+10] What are default permissions when you create a S3 bucket?
+11] What different types of editors are present in linux?
+12] What is sticky bit in linux?
+13] Why and when is the TAR command used ?
+14] What is the command for child directory?
+15] How can we see the event history in CT?
+16] Why exactly is IAM used for ?
+17] What are default policy available if we create a new user ?
+18] What are S3 end pts?
+19] Is VPC Peering possible in different regions?
+20] Is filter types available in VPC-Peering?
+21] What are log groups in CW?
+22] What are Different Metrics in CW?
+23] How to build a custom VPC from scratch step by step?
+24] Is subnet region specific?
+25] What are CF functions?
+26] Are you familiar with zombie process in linux?
+27] What is Bucket Policy?
+28] What is Elastic ip ?
+29] What are lifecycle rules?
+30] What are access pts in S3?
+31] Default criteria for S3 cross region replication?
+32] CT supports which level permission?
+33] How to secure our CT logs?
+34] Which are default permissions available in Linux?
+35] Different process states in linux?
+36] How do i connect to remote server?
+37] What is CIDR? What is its Formula?
+38] How do you secure the logs?
+39] What are networking commands in Linux? Name any five.
+40] What is Egress only IGT?
+41] What is Identity provider in IAM?
+42] What is log grp in CW?
+43] What is AWK command & its use cases?
+44] What is concept of instance store?
+45] Explain the object sharing in S3?
+46] How to redirect the custom domain port/path?
+47] What are CF functions?
+48] How to specify the AZ while launching instance?
+49] How to check commands that we executed in past?
+50] Difference between NAT Gateway & NAT Instance?
+51] What is EC2 Hibernate?
+52] By Network perspective what do you get by default if you run EC2 instance?
+53] What are different modes of EFS?
+54] What are Autoscaling groups?
+55] Does EFS requires scaling manually or automatically?
+56] What is pseudo command?
+57] Where are system logs stored in Linux system?
+58] How can we store log files in CT?
+59] What is dedicated host in EC2?
+60] What are inventory configuration?
+61] What is connection draining?

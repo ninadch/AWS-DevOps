@@ -1,0 +1,250 @@
+
+ What do you mean by AWS?
+AWS provides cloud computing solutions and APIs to firms and individuals around the globe. Besides cloud services, AWS also offers other facilities for organizations/individuals like computation power, database services, content delivery, etc. Organizations have to pay for the AWS services used on a metered basis. 
+
+An organization can build a distributed computing environment with the help of AWS tools and services. Launched in 2002 (web services) and 2006 (cloud computing), AWS is widely used in India by many organizations, businesses, and individuals. Some government organizations in India also use it. 
+
+There are many cloud computing platforms in the market. But the flexibility and cost-effective cloud computing solutions of AWS set it apart from the other platforms. Currently, there are more than 200 services and products offered by AWS in various fields like IoT (Internet of Things), mobile development, data analytics, networking, etc. 
+
+Many of their services are not directly accessible to the end-users as AWS offers developer APIs for it. The web services provided by AWS are also widely used over HTTP for business purposes.
+
+What is Amazon Elastic Compute Cloud (EC2), and also explain its features?
+EC2 is part of the AWS services and enables users to rent virtual computers and run their programs. One can deploy applications on a large scale with the help of EC2. EC2 helps users to boot an AMI (Amazon Machine Language) to access a virtual machine. The configuration of a virtual machine via AMI is called an ‘instance’ by Amazon. You can launch, create, and stop many server instances with the help of EC2 for your business/organization. You will have to pay per second for the number of active servers while using EC2 for your business/firm. 
+
+Besides offering various virtual operating systems, EC2 also provides persistent storage and elastic IP addresses. Amazon CloudWatch is another service widely used by EC2 customers as it helps them monitor resource utilization. You can monitor the usage of CPU, network, etc., of RDS database replicas using Amazon CloudWatch. The auto-scaling feature of EC2 helps in adapting according to the traffic. For example, if someone uses EC2 for their e-commerce site, it will automatically scale up if the traffic on the site increases.
+
+Discuss the pricing models for the Amazon EC2 instance
+This is one of the important AWS interview questions for experienced posts. Read on to know more AWS interview questions and answers for experienced/senior posts.
+
+There are four types of pricing models for Amazon EC2 instances that are as follows:
+
+On-demand instance – On-demand pricing or pay-as-you-go model allows you to pay only for the resources used till now. You will have to pay by second/hour for the resources used, depending on the instances. The on-demand pricing model is good if the work hours are short and unpredictable as they do not require any upfront payment.
+Reserved instance – It is the best model to use if you have a prerequisite for your upcoming requirements. Firms calculate their future EC2 requirements and pay upfront to get a discount of up to 75%. Reserved instances will save computing capacity for you, and you can use them wherever required.
+Spot Instance – If some extra amount of computing capacity is required immediately, one can opt for spot instances at up to 90% discount. The unused computing capacity is sold at a heavily discounted rate via the spot instance pricing model.
+Dedicated hosts – A customer can reserve a physical EC2 server by opting for the dedicated hosts pricing model.
+4. What is Amazon S3? Elaborate.
+
+S3 (Simple Storage Service) provides scalable object storage space to firms and IT professionals. It is one of the earliest services introduced by AWS. The easy-to-use web services interface of S3 allows users to store and retrieve data from remote locations. S3 contains buckets to store files/data.
+
+Users create a bucket in the S3 and name it as it is a universal namespace. An HTTP 200 code is received on successful uploading of a file to the assigned S3 bucket. A unique name is given to each bucket to generate the DNS address (unique).
+
+You can also download the data from a bucket in S3 and permit other users to download it. The authentication mechanism of S3 helps in securing the data from any possible breaches.
+
+5. Your organization has decided to transfer its business processes to the public cloud. However, they want some of their information/data to be accessed only by the management team. The rest of the resources will be shared among the employees of the firm. You have to suggest a suitable cloud architecture for your firm along with the reason of choice.
+
+This question is one of the critical AWS interview questions. Scenario-based AWS interview questions highlight the experimental knowledge and industry approach of the candidate.
+
+I will suggest hybrid cloud architecture for my organization. Hybrid cloud architecture has the perfect blend of private and public clouds. One can use the public cloud in the hybrid architecture for the shared resources in my firm. The confidential resources can only be shared with the management team using a private cloud.
+
+We can enjoy the services of both private and public clouds by installing a hybrid cloud architecture in our firm. Depending on the data security requirements, a hybrid cloud allows data to be accessed at different levels in an organization/firm. It will help our firm in cutting costs in the long run.
+
+6. Explain various types of cloud service models in brief.
+
+There are three types of cloud services models that are:
+
+IaaS – Infrastructure as a Service (IaaS) allows users to access virtual computing resources with the help of the internet. A service provider hosts server, storage, hardware, etc. on behalf of the users via IaaS. IaaS platforms offer high scalability and can adapt according to the workload. IaaS providers also manage tasks of their users like system maintenance, backup, resilience, etc.
+PaaS – Platform as a Service (PaaS) helps service providers to deliver software and hardware tools to their users. It is especially used for the application development process, and one can receive applications from the service provider via the internet using PaaS. Users do not have to own in-house software/hardware for application development/testing as they can do it with the help of PaaS.
+SaaS – Software as a Service (SaaS) is a widely sold model by service providers for software distribution. On-demand computing software can be delivered using SaaS to the users/customers. The SaaS model is preferred as it is easy to administer and manage patches.
+
+8. Explain the auto-scaling feature of EC2 along with its benefits.
+
+The auto-scaling feature in AWS EC2 automatically scales up the computing capacity according to the need. It helps in maintaining a steady performance of business processes. Auto Scaling can help to scale multiple resources in AWS within a few minutes. Besides EC2, one can also choose to automatically scale other AWS resources and tools as and when needed. The benefits of the EC2 auto-scaling feature are as follows:
+
+The auto-scaling feature of AWS EC2 is easy to set up. The utilization levels of various resources can be found under the same interface. You do not have to move to different consoles to check the utilization level of multiple resources.
+The auto-scaling feature is innovative and automates the scaling processes. It also monitors the response of various resources to changes and scales them automatically. Besides adding computing capacity, the auto-scaling feature also removes/lessens the computing capacity if needed.
+Even if the workload is unpredictable, the auto-scaling feature optimizes the application performance. The optimum performance level of an application is maintained with the help of auto-scaling.
+9. What are S3 storage classes, and explain various types of S3 storage classes?
+
+S3 storage classes are used for data integrity and assisting concurrent data loss. Whatever object you store in S3 will be associated with a respective storage class. It is also involved in maintaining the object lifecycle that helps in automatic migration and thus saves cost. The four types of S3 storage classes are as follows:
+
+S3 Standard – The data is duplicated and stored across multiple devices in various facilities via the S3 standard storage class. A loss of a maximum of 2 facilities simultaneously can be coped up via the S3 standard. With its low latency and high throughput, it provides increased durability and availability.
+ S3 Standard IA – ‘S3 Standard Infrequently Accessed’ is used for conditions when data is not accessed regularly, but it should be fast when there is a need to access data. Like S3 Standard, it can also sustain the loss of data at a maximum of 2 facilities concurrently. 
+S3 One Zone Infrequent Access – Many of its features are similar to that of S3 Standard IA. The primary difference between S3 one zone infrequent access and the rest of the storage class is that its availability is low, i.e., 99.5%. The availability of S3 standard and standard IA is 99.99%.
+S3 Glacier – S3 glacier provides the cheapest storage class as compared to other storage classes. One can use the data stored in the S3 glacier for the archive only.
+10. Suppose your firm is hosting an application on AWS that helps users render images and perform general computation tasks. Your firm’s management team has suggested using an application load balancer for routing the incoming traffic on the hosted application. Explain how an application load balancer is a good choice for routing the incoming traffic?
+
+This question is an example of scenario-based AWS interview questions. Besides having theoretical knowledge, a candidate should also know about the industry uses and working of various AWS services. 
+
+The user’s requests regarding image rendering can be directed to the image rendering servers only, while the general computing users can be directed to the computing servers. This will help in balancing the load on various servers and accessing them when needed.
+
+
+12. Explain in detail about AWS VPC.
+
+Amazon VPC (Virtual Private Cloud) lets a user launch AWS resources into a virtual network defined by the user only. Since the user defines the virtual network, various aspects of the virtual network can be controlled by the user, like subnet creation, IP address, etc.
+
+Firms can install a virtual network within their organization and use all the AWS benefits for that network. Users can also create a routing table for their virtual network using VPC. A routing table is a set of rules that defines the direction of the incoming traffic.
+
+The communication between your virtual network and the internet can also be established using the internet gateway offered by AWS VPC. One can access the VPC offered by Amazon via various interfaces that are AWS management console, AWS CLI (Command Line Interface), AWS SDKs, and Query API. Users can pay for additional VPC components if required like NAT gateway, traffic mirroring, private link, etc.
+
+13. You have recently assigned various EC2 instances for your business website across different availability zones. Since your website performs a large number of read/write operations per minute, you have also used a Multi-AZ RDS DB instance (extra-large). It was going smoothly as per your plans until you discovered read contention on RDS MySQL. How are you going to solve this issue for enhancing the performance of your website?
+
+This question is one of the prominent technical AWS interview questions asked. Besides knowing about the cloud deployment services of AWS, candidates should also focus on database services offered by Amazon.
+
+I will install/deploy ElastiCache in the various availability zones of EC2 instances. Deploying ElastiCache in the memory cache of different availability zones will create a cached version of my website in various zones. RDS MySQL read replica will then be added to each availability zone for faster performance of the website. Since the ‘RDS MySQL read replica’ is added to each availability zone, it will not further load on the RDS MySQL instance, thus solving the read contention issue. Users can also access my website quickly in various availability zones as a cached version is created in each zone.
+
+14. Your firm wants to connect the data center of its organization to the Amazon cloud environment for faster accessibility and performance. What course of action will you suggest for the stated scenario?
+
+AWS data engineer interview questions can be asked if a candidate is applying for data scientist/engineer. The data center of my firm can be connected to the Amazon cloud environment with the help of VPC (Virtual Private Cloud). I would suggest my firm establish a virtual private network and then connect VPC and the data center. My firm can then launch AWS resources in the virtual private network using VPC. A virtual private network will establish a secure connection between the firm’s data center and the AWS global network. Adding cloud services to our organization will help us do more work in less time while successfully slashing costs in the long run.
+
+I would also suggest creating multiple backups of the company data before moving it successfully to the cloud. AWS offers affordable backup plans, and one can also automate backups after a fixed interval.
+
+15. Explain various types of elastic load balancers in AWS.
+
+Elastic load balancing in AWS supports three different types of load balancers. The load balancers are used to route the incoming traffic in AWS. The three types of load balancers in AWS are as follows:
+
+Application load balancer – The application load balancer is concerned with the routing decisions made at the application layer. It does path-based routing at the HTTP/HTTPS (layer 7). It also helps in routing requests to various container instances. You can route a request to more than one port in the container instances using the application load balancer.
+Network load balancer – The network load balancer is concerned with routing decisions made at the transport layer (SSL/TCP). It uses a flow hash routing algorithm to determine the target on the port from the group of targets. Once the target is selected, a TCP connection is established with the chosen target based on the listener configuration that is known.
+Classic load balancer – A classic load balancer can decide on either the application layer or the transport layer. One can map a load balancer port to only one container instance (fixed mapping) via the classic load balancer.
+16. What do you know about NAT gateways in AWS?
+
+NAT (Network Address Translation) is an AWS service that helps in connecting an EC2 instance to the internet. The EC2 instance used via NAT should be in a private subnet. Not only the internet but NAT can also help in connecting an EC2 instance to other AWS services.
+
+Since we are using the EC2 instance in a private subnet, connecting to the internet via any other means would make it public. NAT helps in retaining the private subnet while establishing a connection between the EC2 instance and the internet. Users can create NAT gateways or NAT instances for establishing a connection between EC2 instances and internet/AWS services.
+
+NAT instances are single EC2 instances, while NAT gateways can be used across various availability zones. If you are creating a NAT instance, it will support a fixed amount of traffic decided by the instance’s size.
+
+
+19. What do you know about AMI?
+
+AMI (Amazon Machine Image) is used to create a virtual machine within the EC2 environment. The services that are delivered via EC2 are deployed with the help of AMI only. The main part of AMI is its read-only filesystem image that also comprises an operating system. AMI also consists of launch permission that decides which AWS account is permitted to launch instances using AMI. The volumes attached to an instance while the launching process is decided by block device mapping in AMI. The AMI consists of three different types of images.
+
+A Public image is an AMI that any user/client can use, while users can also opt for ‘Paid’ AMI. You can also use a ‘Shared’ AMI that provides more flexibility to the developer. Users can access A shared AMI who are allowed as per the developer’s orders.
+
+20. Explain horizontal and vertical scaling in AWS?
+
+This question is among the AWS basic interview questions asked to a candidate. It is also one of the important AWS interview questions for freshers. Read on to know the answer to this AWS interview question.
+
+When RDS/EC2 servers alter the instance size for scaling purposes, it is called vertical scaling. A larger instance size is picked for scaling up in vertical scaling, while a smaller instance size is picked for scaling down. The size of the instance is altered on-demand via vertical scaling in AWS. 
+
+Unlike vertical scaling, the size of an instance is altered as per the requirements in horizontal scaling. The number of nodes/instances in a system is changed without altering their size via horizontal scaling. The horizontal auto-scaling is based on the number of connections between an instance and the integrated ELB (Elastic Load Balancer).
+
+21. What are the main differences between AWS and OpenStack?
+
+Both AWS and OpenStack are indulged in providing cloud computing services to their users. AWS is owned and distributed by Amazon, whereas OpenStack is an open-source cloud computing platform. AWS offers various services in cloud computing and offers IaaS, PaaS, etc., whereas OpenStack is an IaaS cloud computing platform. You can use OpenStack for free as it is open source, but you have to pay for AWS services as you use it.
+
+Another significant difference between AWS and OpenStack is in terms of performing repeatable operations. While AWS performs repeatable functions via templates, OpenStack does it via text files. OpenStack is good for understanding and learning cloud computing, but AWS is better and equipped for businesses. AWS also offers business development tools that OpenStack does not offer.
+
+22. What do you know about AWS CloudTrail?
+
+People using an AWS account can audit it using the AWS CloudTrail. It also helps in ensuring compliance and governance of the AWS account. As soon as an AWS account is activated, CloudTrail also starts working and records every AWS activity as an event. One can visit the CloudTrail console anytime and can view the recent events/actions. All the efforts by a user or a role are recorded in the CloudTrail. The actions taken by various AWS services are also recorded in the CloudTrail.
+
+With CloudTrail, you will have enhanced visibility of your AWS account and the associated actions. In an AWS infrastructure in any organization, you can quickly get to know any particular activity and gain control over the AWS infrastructure.
+
+
+
+25. You have to upload a file of around 120 megabytes in Amazon S3. How will you approach the uploading of this file?
+
+A file that has a size of more than 100 megabytes can be uploaded in Amazon S3 using the multipart upload utility offered by AWS. Multipart upload utility will allow me to upload the 120 megabytes file into multiple parts. All the parts of the large file will be uploaded individually using the multipart upload utility. Once all the original files are uploaded, one can merge to get the original file with 120 megabytes.
+
+Using multipart upload utility will help me in decreasing the upload time significantly. AWS S3 commands can be used for multipart uploading and downloading. AWS S3 commands are also capable of automatically performing multipart uploading/downloading after evaluating the file size.
+
+
+
+
+28. What do you know about Amazon CloudWatch? Explain its benefits in brief.
+
+Amazon CloudWatch helps in monitoring the AWS services and resources that are being used in real-time. CloudWatch uses various metrics that help in understanding the AWS resources and services that are being used. Via CloudWatch can also view the metrics related to customized AWS applications as the CloudWatch dashboard is also customizable. By default, CloudWatch displays various metrics associated with AWS services being used. One can customize and choose a set of metrics to be shown by CloudWatch.
+
+One can access CloudWatch services via various means like CloudWatch console, AWS CLI, CloudWatch API, and AWS SDKs. Besides resource utilization, we can also monitor the operational health of AWS services via CloudWatch.
+
+31. What do you know about the cross-region replication service offered by AWS?
+
+When one needs to copy data from one bucket to another, cross-region replication is used. The main benefit of cross-region replication is that it allows you to replicate data from a bucket to another while both the buckets are in different regions. One can do Asynchronous copying of data across buckets in the same AWS management console via cross-region replication.
+
+The bucket from which the data/object is being copied is called the Source Bucket, while the other is called the Destination Bucket. Versioning should be enabled in both the source and destination buckets for availing of cross-region replication. Once you have uploaded a set of data in the destination bucket, you cannot upload/replicate the same data from the source bucket.
+
+32. Explain what you know about CloudFront CDN.
+
+CloudFront CDN (Computer Delivery Network) is a group of distributed servers used to deliver web content like webpages, etc. The delivery done by CloudFront CDN is based on the geographic region of the user, webpage origin, and the server being used for content delivery. The origin of all the files that are to be distributed by the CDN needs to be defined. An origin for CDN can be an S3 bucket, an AWS instance, or an elastic load balancer.
+
+Two types of distribution are done by CloudFront CDN that is web distribution, and RTMP. Web distribution is used for websites, whereas RTMP is used for media streaming. There are around 50 edge locations distributed in various parts of the world. Edge locations are sites where the web content is cached during the delivery process.
+
+
+34. What is the Simple Notification Service offered by AWS?
+
+Simple Notification Service (SNS) offered by AWS is a means of sending messages from one application to another. It is a cost-effective solution that helps users publish messages from any particular application and forward them to other applications. SNS can also send push notifications to various mobile devices like Apple, Google, Windows phones, etc. One can also send an email/SMS to an HTTP endpoint using AWS SNS.
+
+The best feature of SNS is that multiple types of endpoints can be grouped. SNS also supports various types of endpoints under one topic. For example, one can group Apple and Android recipients using SNS and send messages to all subscribers. SNS stores the messages already published in various availability zones to prevent any type of data loss.
+
+35. Your firm has its offices in various parts of the world and is involved in multi-regional deployment on AWS. For data persistence, your firm uses MYSQL 5.6. Your firm has recently announced that it needs to regularly collect batch process data from each region and generate regional reports. The reports will then be forwarded to various branch offices. What course of action will you suggest to perform this task in the shortest possible time?
+
+AWS interview questions can also be based on server deployment and database-related issues. This question is an example of AWS interview questions for experienced posts. 
+
+I will suggest creating an RDS instance as a master for managing the firm’s database. For collecting/reading reports from various locations, we can create a read replica of the RDS instance in various regional headquarters. Installing a read replica at multiple locations will help us in reading reports in less time.
+
+36. Your firm’s application is responsible for retrieving data from your subscriber’s/user’s mobile devices every 10 minutes. The retrieved data is stored in DynamoDB. The information is extracted into S3 for each user. Once the data is extracted, the application helps in data visualization on the user end. As a senior architect in your firm, you are asked to optimize the backend architecture so that the firm can slash the costs. What are your recommendations?
+
+AWS interview questions can change according to different job roles applied for. This question is an example of AWS architect interview questions.
+
+I would recommend using Amazon Elasticache to cache the data stored in DynamoDB. Using Elasticache will reduce the provisioned read throughput without affecting the performance of the system. Using Elasticache will also help our firm slash the cost as it is cheaper than any other provisioned IO.
+
+her nodes in a cluster. The master node is also responsible for monitoring the performance of various nodes and the overall health.
+
+38. What do you know about the S3 transfer acceleration service offered by Amazon?
+
+S3 transfer acceleration is used to make uploads to S3 quickly. S3 transfer acceleration does not upload directly to an S3 bucket as it uploads the file to the nearest edge location. A distinct URL is used by S3 transfer acceleration to upload the file to the nearest edge location and then transfer it to the required S3 bucket.
+
+CloudFront edge network is utilized by S3 transfer acceleration to make uploads quickly, and it also optimizes the transfer process. The edge location to which the file is uploaded will automatically transfer the file to the S3 bucket in less time. The data between clients and S3 buckets can be securely transferred using the S3 transfer acceleration service by Amazon. 
+
+
+40. Explain some of the advantages of using AWS RDS.
+
+AWS interview questions are likely to be framed around AWS RDS as it is one of the widely used database services in the world. Read on to know more AWS interview questions and answers.
+
+The benefits of using AWS RDS are as follows:
+
+While using AWS RDS, you can control/tweak various database services like CPU, storage, etc., individually.
+AWS RDS helps you in enabling automatic backup and updating your database servers to the latest configuration.
+AWS RDS also creates a backup instance that can be used at the time of failover and prevents data loss.
+You can distribute the read traffic by creating RDS read replicas from the source database.
+41. State the differences between AWS CloudFormation and AWS Elastic Beanstalk.
+
+AWS CloudFormation is responsible for provisioning all the resources that are available within a cloud environment. It is also used for describing all the infrastructural resources present in a cloud environment. Contrary to AWS CloudFormation, AWS Elastic Beanstalk provides a suitable environment to deploy and operate applications within the cloud. 
+
+The infrastructural need of applications running in the cloud is fulfilled by AWS CloudFormation, whereas AWS Elastic Beanstalk manages the lifecycle of applications deployed in the cloud. You can fulfill various infrastructural needs of various types of applications deployed in the cloud via AWS CloudFormation like enterprise applications, legacy applications, etc. AWS Elastic Beanstalk is not concerned with the types of applications as it is combined with the developer tolls to govern the lifecycle of deployed applications.
+
+42. Explain the working of AWS config with AWS CloudTrail.
+
+AWS CloudTrail is widely used for recording the user API activity associated with a particular AWS account. One can monitor various API activities using AWS CloudTrail like response element, caller identity, call duration, etc. When you use AWS Config with CloudTrail, you know the configuration details associated with the AWS resources used. If something is wrong with your AWS resources, both AWS config and CloudTrail can help you identify them.
+
+AWS config is more concerned with the changes that have been made to the AWS resources, whereas CloudTrail is concerned with the user that has made the changes. You can use both of them simultaneously for enhanced governance, compliance, and security policies.
+
+
+44. Suppose a request for any particular content is made in CloudFront, but the content is not present in the nearest edge location. What will happen in this scenario?
+
+CloudFront always caches data to the nearest edge location before delivering the data to various users. If one requests a particular content via CloudFront and the content is not stored in the nearest edge location, it will be delivered from the original server. The user’s request will not go in vain as the content will be delivered. However, we may increase the latency as the content is being delivered from the original server and not from the nearest edge location.
+
+A cached version of the data will also be stored in the nearest edge location in this case. So we can reduce the latency if a request for the same data is made again. Only for the first time will it be delivered from the original server.
+
+It is another example of ‘AWS interview questions’ that are scenario-based. It is also a type of AWS cloud architect interview questions.
+
+Yes, one should launch the EC2 instances in a VPC. VPC is the best way of connecting the EC2 instances to our firm’s data center. Once each instance is connected to the VPC, we can easily assign a predetermined IP address to each EC2 instance. It will help to access the public cloud resources easily like they are stored in a private network.
+
+45. What do you understand by volume & snapshot in AWS 
+
+In AWS, volume is block-level storage that we can assign to an EC2 instance. We can compare this to a hard disk from where the user can read or write the data. You pay for the data used by volumes as it is a way of measuring the storage section.
+
+A snapshot is formed when we have a volume as it is a single point in time view of a volume. When the data stored in a volume is copied to another location at a single point in time, a snapshot is formed.
+
+
+47. What do you know about Amazon WorkSpaces? 
+
+Amazon WorkSpaces provides virtual and cloud-based desktops to work on, also known as workspaces. You do not need to deploy physical hardware and software by using Amazon WorkSpaces. You can install Microsoft Windows or Linux virtual desktops with the aid of Amazon WorkSpaces. Users can access the virtual desktops via various devices or web browsers.
+
+WorkSpaces allows users to choose from a wide range of available software/hardware configurations. It also provides a persistent desktop feature so that you can start working from where you had left off. Amazon also provides a WAM (WorkSpaces Application Manager) for deploying and managing applications on the virtual desktops. 
+
+48. What do you know about AWS IAM?
+
+The key to crack an AWS interview is to know about Amazon’s wide range of services. This question is a type of basic AWS interview questions asked.
+
+AWS IAM (Identity and Access Management) allows users to access AWS resources/services securely. One can create groups of users using AWS IAM and can assign them a customized set of permissions. Access to AWS resources can be allowed to any particular group/user via AWS IAM. One can access the IAM features under the ‘AWS Management Console’ section of your AWS account.
+
+49. Mention the differences between security groups and a network access control list.
+
+AWS interview questions can be related to cloud access, security, customer service, and many more topics. One should practice AWS interview questions from diverse topics related to AWS services for cracking the interview.
+
+Security groups are used to control access to instances, while the network access control list is concerned with controlling the access at the subnet level. Network access control list can add rules for both ‘allow’ and ‘deny,’ whereas security groups can add only rules for ‘allow.’
+
+CONCLUSION
+One should analyze their competencies and apply for a suitable job role in Amazon. If you use a developer/architect post in AWS, focus more on AWS cloud architect interview questions. One should also prepare scenario-based interview questions as a candidate can also encounter them. AWS interview questions revolve around the various services offered by Amazon.
+
