@@ -1,0 +1,70 @@
+###### CLI Command #########
+
+/root/.aws
+
+[root@ip-172-31-41-4 .aws]# cat config
+[default]
+region = ap-south-1
+output = table
+
+[profile test]
+region = us-east-2
+output = table
+[root@ip-172-31-41-4 .aws]# cat credentials
+[default]
+aws_access_key_id = 
+aws_secret_access_key = 
+
+[test]
+aws_access_key_id = 
+aws_secret_access_key = 
+[root@ip-172-31-41-4 .aws]#
+
+*****EC2 CLI Command******
+
+aws ec2 describe-instances
+
+aws ec2 stop-instances --instance-ids ID
+
+aws ec2 start-instances --instance-ids ID
+
+aws ec2 describe-instance --profile test
+
+
+*****S3 CLI Command******
+
+aws help
+aws congfigure  --- accesskey, secretkey, region, o/p format
+
+aws s3 ls  -- list the buckets
+
+aws s3 cp index.html s3://bucketname
+aws s3 cp foldername s3://bucketname/foldername --recursive
+
+aws s3 mb s3://bucketname
+aws s3 rb s3://bucketname
+aws s3 rb s3://bucketname --force
+
+aws s3 mb s3://bucketname --region ap-south-1
+
+aws s3 ls s3://bucketname  ---- can see contents inside the bucketname
+aws s3 sync . s3://bucketname ----current folder gets synced to s3
+
+
+aws s3 sync s3://bucketname .  -- bucket synced with folder on the system
+
+aws s3 cp index.html s3://bucketname --storage-class STANDARD_IA
+
+
+STANDARD                                 | REDUCED_REDUNDANCY
+STANDARD_IA                              | ONEZONE_IA
+INTELLIGENT_TIERING                      | GLACIER
+DEEP_ARCHIVE
+
+aws s3 mv index.html s3://bucketname/test.xml   -- cut paste local index.html aapke s3 move hogi with the name test.xml
+
+aws s3 mv s3://onedev123/test.xml s3://onedev123/shantanu.xml
+
+aws s3 cp s3://onedev123/index.html s3://twodev123
+
+aws s3 rm s3://bucket-name --recursive

@@ -1,0 +1,135 @@
+*********Day 1 linux machine command******
+
+ifconfig
+hostname
+clear
+sudo su - 
+sudo su - ec2-user
+ls
+ls -ltra
+pwd
+cd
+date
+cd -
+man {command} -- use q to quit  -- eg man ls, man clear, man cd ......
+cat > file1.txt
+cat file1.txt
+rm filename --asks for yes and no
+rm -f filename
+touch filename1 filename2
+rm -rf *
+rm -rf *txt
+rm -rf w*
+
+
+******** Day 2 linux machine command******
+
+mkdir directoryName    ---- creating directories
+rmdir directoryName ---- delete/remove directories
+mkdir dir1 dir2 dir3 -- multiple dir creation
+mkdir -p dir1/dir2/dir3   -- -p is for parent (sapne ke andar sapne aur uske andar ek aur sapna)
+rm -rf --- delete directories as well when we add -r
+cd .
+cd ../../../
+cd /mnt
+touch .hiddenfilename  -- . makes hidded
+mkdir .hiddendir  --- makes hidden directories
+echo "hello all" --- prints hello world
+whoami  -- gives working user name
+rm -rf .hiddenfilename
+rm -rf .hiddendir
+tac file  --- reverse of cat 
+tac  > file
+tac >> file  --- append 
+history -- shows command history
+ls -ltr *xyz*    --- filtering with * everywhere
+ls -ltr *x  -- simlar we can do for rm
+mv file1 file2 --- renames/move file1 to file2
+cp file1 file2 ---- copy file1 to file2 -- creates new file by the name file2 and keeps file1 as well
+mv dir1 dir2  --- renames directory
+cp -r dir1 dir2  -- copies dir1 and its content to dir2
+mv file1 /mnt/shantanu   --- moves file1 to /mnt/shantanu
+cp -r file1 /mnt/shantanu  --- copies file1 to /mnt/shantanu
+
+
+###########Day 3 (Vi editor command) Linux Commands ############
+vi editor
+vi filename  -- creates new file
+press i for insert mode
+press esc for command mode
+:w -- save
+:q! -- close
+:x --- save and close -- :x!
+:wq! -- save and close
+command mode
+o -- goes to new line and goes to  insert mode
+dd -- deletes entire line
+r -- replace --- goto command mode--> move cursor to what we want to replace --> replace it --> press esc
+x  -- to delete sinle letters
+/pattern  -- search in the file ,, with n you can goto next occurance of the pattern
+shift+g --- cursor moves to last line
+shift+h  -- cursor moves to 1st line
+shift+a -- cursor moves to adjacent size and goes in insert mode
+wget -- download link from internet
+wget https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
+grep -- to search and print pattern in files
+grep {Pattern} filename  -- use
+grep -i -- case insensative
+grep -c -- gives count
+grep -s -- supress error
+
+
+############# Day 4  linux commands #######
+
+du -sh  ----- to see size of files and folder
+tar -cvf  -- to create archive  -c= create -v=verbose -f=force
+tar -xvf  -- to extract archive  -x=extract
+zip -r folder.zip folder  --- to create zip
+unzip folder.zip   ---- to unzip the folder
+gzip --- compress the files
+gunzip  --- unzip the compresses files
+ln -- hardlink   -- backup
+ln -s --softlink   --- shortcut(it's store only path)
+unlink -- to unlink the created softlinks
+yum list --- to list out all the packages
+yum list installed --- gives installed packages on my linux machines
+yum list available --- gives all the available packages
+yum list ${package-name}
+eg :- yum list tree
+	  yum list git
+ 
+	  
+to install a package
+yum install ${package-name} -y
+yum remove ${package-name} -y
+wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm
+yum install jdk-17_linux-x64_bin.rpm   -- rpm is for redhat package manager
+
+to apply patch:-
+yum update  --- for all the package
+yum update ${package-name}
+
+
+
+############# Day 5  linux commands #######
+
+
+yum-config-manager --add-repo repourl
+/etc/yum.repos.d
+useradd username
+passwd username
+/etc/sudoers   -- sudo file edit
+groupadd groupname
+gpasswd -M devops,velocity aws
+gpasswd -a shantanu aws
+/etc/group  -- to check group
+/etc/passwd  -- to check user
+service httpd start/stop/restart/status
+systemctl start/stop/restart/status httpd
+chkconfig httpd on
+chkconfig httpd off
+uname  -- to check which kernal
+uname -r  --- kernal version/release
+uname -a -- to check kernal release version and GNU details
+
+assignment -- deploy index.html on apache httpd with port 90
