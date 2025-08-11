@@ -1,0 +1,92 @@
+######## Day 1 ###################
+
+
+yum install docker
+docker -v
+systemctl start docker
+
+
+docker ps -- running processes/containers in docker
+
+docker ps -a  ---- shows all the containers.
+
+docker images -- shows all the images
+docker image ls -- show all the images
+
+docker pull imagename ---- imagename can be taken from dockerhub
+
+docker run imagename  --- already downloaded image will be run or it else it will downloaded
+
+docker rmi -f imagename  --- deletes the image
+
+docker image --help, docker --help
+
+docker run -it imagename COMMAND  -- here the commands which we provide executes
+
+docker run -it ubuntu:18.04 ps -ef  -- runs ps -ef command in the containers
+docker run -it ubuntu:18.04 bash
+whenever we use docker run a new container is launched.
+
+docker container ls / docker ps
+
+docker stats containerID --- memory/cpu usage of the container.
+
+ctrl+d === exits the container and stops it
+
+ctrl p+q == exists the container but doesnt stops
+
+
+login to a running container:
+
+docker exec -it containerID bash
+
+
+to stop the running containers:-
+docker container stop containerID
+
+docker container start containerID
+
+docker system prune -a -f
+
+
+######## Day 2 ###################
+
+
+docker run -it ubuntu:18.04 bash
+docker exec -it cont-id bash --- logins to the cont with bash
+docker attach cont-id --- logins with the 1st process
+
+docker container kill cont-id
+
+docker run centos:8 ping localhost -- runs in forground
+docker run -d centos:8 ping localhost -- runs detach mode --background
+
+docker logs -f cont-id
+
+docker search image-name
+
+docker run -it --name nameofcontainer ubuntu:18.04 bash
+
+docker commit cont-id imagename:tag
+
+docker container rm cont-id -- removes the container
+
+docker run -itp 80:80 httpd
+
+docker inspect conti-id
+
+curl IP
+
+docker cp filename cont-id:/path
+docker cp cont-id:path pathof-ec2
+
+docker run -itv /mnt:/data ubuntu:18.04 bash
+
+netstat -anlp -- can see open ports
+
+
+######## Day 3 ###################
+
+
+$ sudo curl -L --fail https://github.com/docker/compose/releases/download/1.29.2/run.sh -o /usr/local/bin/docker-compose
+$ sudo chmod +x /usr/local/bin/docker-compose

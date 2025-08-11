@@ -1,0 +1,83 @@
+[root@ip-172-31-39-240 ansible]# ls -ltr
+total 20
+drwxr-xr-x 2 root root     6 Jan 15 21:55 roles
+-rw-r--r-- 1 root root     0 May 13 03:39 hosts
+-rw-r--r-- 1 root root 19983 May 13 03:40 ansible.cfg
+[root@ip-172-31-39-240 ansible]# cat p
+[root@ip-172-31-39-240 ansible]# pwd
+/etc/ansible
+[root@ip-172-31-39-240 ansible]# cat ansible.cfg
+
+uncomment inventory file and sudo_user
+
+inventory      = /etc/ansible/hosts
+#library        = /usr/share/my_modules/
+#module_utils   = /usr/share/my_module_utils/
+#remote_tmp     = ~/.ansible/tmp
+#local_tmp      = ~/.ansible/tmp
+#plugin_filters_cfg = /etc/ansible/plugin_filters.yml
+#forks          = 5
+#poll_interval  = 15
+sudo_user      = root
+
+
+   
+   18  ansible dev [0] --list-host
+   19  ansible dev [0]
+   20  ls -ltr
+   21  clear
+   22  ansible dev[0] --list-hosts
+   23  ansible dev[2] --list-hosts
+   24  ansible dev[1] --list-hosts
+   25* ansible dev[0] --list-hosts
+   26  ansible dev[0:1] --list-hosts
+   27  ansible dev[2:5] --list-host
+       ansible all --list-hosts
+
+
+
+42  ansible all --list-hosts
+   43  ansible dev --list-hosts
+   44  ansible dev --list-hosts
+   45  ansible qa --list-hosts
+   46  ansible qa[0] --list-hosts
+   47  ansible qa[0] --list-hosts
+   48  4
+   49  clear
+   50  cat /etc/ansible/hosts
+   51  ansible dev -a "ls"
+   52  ansible dev -a "ls -ltra
+   53  ansibke dev -a "ls -ltra"
+   54  ansible dev -a "ls -ltra"
+   55  ansible dev -a "ls -ltr"
+   56  ansible qa -a "ls -ltr"
+   57  ansible all -a "ls -ltr"
+   58  ansible all -a "touch file1_ansible"
+   59  ansible dev[0] -a "mkdir myfolder"
+   60  ansible dev[-1] -a "mkdir myfolder"
+   61  ansible dev[-1] -a "mkdir myfolder2"
+   62  ansible all -a "yum install git -y"
+   63  ansible all -ba "yum install git -y"
+   65  ansible dev[0]:qa[0] -a "mkdir myfolder2"
+   66  ansible dev -b -m yum -a "pkg=tree state=present"
+   67  ansible dev -b -a "yum install tree"
+   68  ansible dev -b -m yum -a "pkg=tree state=present"
+   69  ansible all -b -a "yum install httpd -y"
+   70  ansible all -b -a "yum remove httpd -y"
+   71  ansible all -b -m yum -a "pkg=http state=present"
+   72  ansible all -b -m yum -a "pkg=httpd state=present"
+   73  ansible all -b -m yum -a "pkg=httpd state=absent"
+   74  ansible all -b -m yum -a "pkg=httpd state=present"
+   75  ansible all -b -m service -a "name=httpd state=started"
+   76  ansible all -b -m service -a "name=httpd state=stopped"
+   77  vi index.html
+   78  ansible all -b -m service -a "name=httpd state=started"
+   79  ls -ltr
+   80  vi index.html
+   81  ls -lt
+   82  rm -rf demo.yaml
+   83  ansible all -b -m copy -a "src=index.html dest=/var/www/html/"
+   84  ansible all -b -m get_url -a "src=https://tomcat.apache.org/tomcat-5.5-doc/appdev/sample/sample.war dest=/mnt"
+   85  ansible all -b -m get_url -a "url=https://tomcat.apache.org/tomcat-5.5-doc/appdev/sample/sample.war dest=/mnt"
+   86  ansible all -b -m user -a "name=shantanu state=present"
+   87  ansible all -b -m user -a "name=shantanu state=absent"

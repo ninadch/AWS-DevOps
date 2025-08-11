@@ -1,0 +1,152 @@
+################################## 1nd Day  ##########################################
+
+git --version
+git init  ---initialize
+
+git add -- adds to staging
+git status
+git rm --cached filename -- removes from staging
+git restore --staged filename
+
+git commit filename
+
+git commit -m "message"
+
+git remote add origin origin-url
+git remote -v 
+git remote show origin
+
+
+add user details.
+
+git config --global user.name "username"
+git config --global user.email "useremail"
+
+git config --list
+
+git config --global --edit
+
+git push origin master  --- origin and master default branch..we need to have token for this.
+
+git pull origin master  --- to pull the code
+
+git clone git-repo-url --- entire repo is cloned.
+
+git log
+
+git log -1, git log -2
+
+git log --oneline
+
+if we delete .git folder then the git local repo turns back to normal folder
+
+
+################################## 2nd Day  ##########################################
+
+
+
+git show commitID
+git checkout filename
+git clean -fd
+git pull
+git fetch
+git commit --amend -m "Message"
+.gitignore  --- blank folders/ignore files 
+
+vi .gitignore
+
+*.css
+*.java
+
+git diff origin 
+
+git config --global credential.helper store
+
+
+
+################################## 3rd Day  ##########################################
+
+
+
+
+git branch    -- we can see the current branch
+git branch dev -- creates dev branch
+
+git checkout -b dev  -- creates branch and switches to newly created branch
+
+git push origin dev
+
+git push --all
+
+git pull origin dev
+
+git pull --all
+
+git checkout dev  --- to switch 
+
+
+git branch -d dev  -- deletes branch
+git branch -D dev --- forcefully deletes
+
+
+################################## 4th Day  ##########################################
+
+
+
+git checkout master
+
+git merge dev   - -- here you should be in master  here its merging dev branch into master branch
+
+
+goto :- git checkout dev
+
+git merge master ----here its merging master branch into dev branch
+
+if conflict vi the file and resolve
+
+if there is a conflict then we can only abort
+
+git merge --abort
+
+git stash:-
+
+git stash list
+
+git stash --- it should be a modified file, not a new file
+
+git stash apply stash{o}
+
+git stash clear
+
+git reset:-
+
+git reset HEAD~1  -- to delete the commit 
+
+three types:- mixed (default), Hard, soft
+
+git reset HEAD~1 --soft
+
+git revert commitID
+then add comment to the pop-up.
+
+git tag tagname commitID   -- lightweight
+
+git tag tagname commitID -m "message to write"   -- heavy
+
+git tag -------------- can list
+
+git show tagname
+
+git tag -d tagname
+
+git push origin master --tags
+
+git log
+
+git log --oneline
+
+can have multiple origins:-
+
+git remote add origin2 url
+
+here origin2 is nothing but a name...can be anything but prefer origin.
