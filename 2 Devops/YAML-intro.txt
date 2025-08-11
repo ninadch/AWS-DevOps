@@ -1,0 +1,64 @@
+Introduction to YAML
+Get introduced to YAML in this lesson and learn about the benefits of YAML.
+
+We'll cover the following
+
+Welcome to this course
+Overview of YAML
+Where is YAML used?
+Benefits of YAML
+Summary
+Welcome to this course#
+Welcome to this course. I’m glad that you have enrolled to this course on YAML. This course is an interactive version of my best-selling book titled “Introduction to YAML: Demystifying YAML Data Serialization”, available on Amazon Kindle. This is a great way to start your journey towards learning the YAML data serialization language.
+
+So, let’s begin our learning journey.
+
+Overview of YAML#
+YAML stands for YAML Ain’t Markup Language. It rhymes with “camel”.
+
+Previously, it stood for Yet Another Markup Language. It was later changed to emphasize that the language is intended for data and not documents.
+
+
+
+YAML is a very simple, text-based, human-readable language used to exchange data between people and computers.
+
+YAML is not a programming language. It is mostly used for storing configuration information.
+
+YAML files store data, and they do not include commands and instructions.
+
+YAML is a data serialization language similar to XML or JSON.
+
+In case you are wondering what data serialization is, here is the definition.
+
+Data serialization is the process of converting data objects, or object states present in complex data structures, into a stream of bytes for storage, transfer, and distribution in a form that can allow recovery of its original structure.
+
+It is important to understand this format because any changes to these files can cause your application to work incorrectly.
+
+Where is YAML used?#
+YAML can represent any data structure that can be represented using either XML or JSON format.
+
+YAML can store and manage any textual data in Unicode format, like configuration or log files. This makes it software and hardware platform independent for storing, transporting, and sharing data.
+
+YAML is used in configuration files, log files, object persistence, caching, and messaging (sending information across various software components or applications).
+
+Persistence is the process of preserving the state of an object longer than its lifespan, or longer than the duration of the process creating the object. This is achieved by storing the state of the object in a non-volatile memory, like a hard disk, instead of a volatile memory like RAM.
+
+Caching is a technique of storing a copy of a repeatedly requested resource and serving it back from the copy itself instead of from the remote server. This makes the application more responsive.
+
+Benefits of YAML#
+YAML has the following characteristics
+
+It is human-readable. YAML allows you to represent complex data structures in a human-readable format.
+It has a simple and clean syntax. YAML is easy to learn and simple to read. It can easily express wide variety of different native data structures and allows for custom extensions.
+It has strict syntax. The YAML specification has very little leeway for flexibility, which increases its robustness.
+It is unambiguous. YAML unambiguously specifies the data structures of the serialized data, so there’s no need to rely on comments or documentation. Because the data structures are unambiguous, it makes it easier to use automated tools (scripts) for reading and writing YAML. For example, you could write a script that reads the data structure from a file written in YAML and converts it to another format (such as JSON or XML).
+It is friendly to version control. YAML stores plain text, so it can be added to a version control such as Git or Subversion repository without any issues.
+It is easy to implement and use.
+It is portable across most programming languages. YAML supports representing sequences as lists and mappings as dictionaries (hashes in some languages) in a language-independent manner.
+YAML is more powerful than JSON when it comes to specifying complex data structures. It’s a superset of JSON, which means that all valid JSON documents are also valid YAML.
+It matches native data structures of modern programming languages such as Python, Ruby, and JavaScript. There are multiple YAML parsers in different languages, so you can use the same language for both generating and parsing YAML.
+It has a consistent data model to support generic tools. It has powerful tools, such as PyYAML.
+It supports one-pass or one-direction processing. Parsing YAML is linear. There are no forward or backward pointers to deal with, so there are fewer parsing ambiguities.
+It is expressive and extensible. By extensibility, we mean existing applications continue to work even when new data is added (or removed).
+It has fast implementations. YAML is fast to load and easy to process in memory.
+It has secure implementations. Many security issues in programming languages are related to parsing untrusted input (such as JSON). Python, Ruby, Java, JavaScript, PHP, and more make it possible for attackers to exploit these vulnerabilities bypassing unexpected input strings to the parser. YAML is designed to prevent these types of exploits by specifying what type of data each part of the YAML stream must consist of.
